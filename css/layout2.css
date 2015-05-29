@@ -46,7 +46,8 @@ img{display:inline-block !important;}
 header {
 	width:100%;
 }
-.res_header{display:none;}
+.desk_header{display:block;}
+.resposive_menu{display:none;}
 header .upper_header{width:100%;}
 
 header .upper_header p a{ font-size:11px; color:#419422; margin: 0 10px;}
@@ -75,6 +76,40 @@ header .white_line p{color:#000; font-size:14px; padding:0 20px;}
 header .white_line p a{color:#000;}
 /*---------------------------------------------------header---------------------------------------------------*/
 
+/*---------------------------------------------------content_main_con---------------------------------------------------*/
+#content_main_con{width:100%; padding-bottom:100px;}
+#content_main_con .content_con{width:100%; border:3px solid #ff0000;}
+#content_main_con .content_con h5{margin:10px;}
+#content_main_con .content_con h1{font-size:60px; margin:10px;  font-weight:bold; color:#00481a}
+#content_main_con .content_con h4{font-size:16px; margin:10px; font-weight:bold; color:#00481a; padding:30px 0;}
+#content_main_con .content_con .social_media_con{width:100%; margin:10px;}
+#content_main_con .content_con .social_media_con img{margin-right:5px; }
+
+#content_main_con .content_con .upper_widget_con{width:100%; margin:50px 0; display:inline-block;}
+#content_main_con .content_con .upper_widget_con .widget_con{text-align:center; min-height:450px;}
+#content_main_con .content_con .upper_widget_con .widget_con h2{font-size:20px; padding-bottom:20px; color:#00481a; background-image:url(../images/widget_line.png); background-position:58px 30px; background-size:auto; margin:10px 0; background-repeat:no-repeat;}
+#content_main_con .content_con .upper_widget_con .widget_con p{font-size:16px color:#000;}
+
+#content_main_con .content_con .sports_con h2{font-size:16px; margin-bottom:40px; padding:0 20px}
+#content_main_con .content_con .sports_con h2 span{color:#4e944c}
+#content_main_con .content_con .sports_con h6{font-size:12px; line-height:24px; padding:0 20px}
+#content_main_con .content_con .sports_con h6 span{color:#5e9144}
+
+#content_main_con .like_container{width:100%; margin:60px 0; display:inline-block;}
+
+#content_main_con .like_container .img2{position:relative;}
+
+#content_main_con .like_container .img2 .text_con{ position:absolute; width:88%; margin:0 auto; top:0;}
+#content_main_con .like_container .img2 .text_con p{margin:30px 0; line-height:45px; color:#fff; font-size:20px; text-align:center}
+#content_main_con .like_container .img2 .text_con h5{margin:90px 0; line-height:45px; color:#fff; font-size:20px; text-align:center}
+#content_main_con .like_container .img2 .text_con h3{margin:40px 0; line-height:45px; color:#fff; font-size:20px; text-align:center}
+#content_main_con .like_container .img2 .text_con .brown_con{width:85%; margin:0 auto; color:#fff; background-color:#ae5e07; padding:15px 0;}
+#content_main_con .like_container .img2 .text_con .brown_con .watch_icon{padding:0 5px 0 20px; background-image:url(../images/watch_icon.png); background-repeat:no-repeat; margin-left:10px; background-position: 0px 1px;}
+#content_main_con .like_container .img2 .text_con .brown_con .minute_icon{padding:0 5px 0 20px; background-image:url(../images/minute_icon.png); background-repeat:no-repeat; margin-left:10px; background-position: -2px 1px;}
+#content_main_con .like_container h2{font-size:22px; color:#4e944c; padding:5px 20px}
+/*---------------------------------------------------content_main_con---------------------------------------------------*/
+
+
 /*---------------------------------------------------Responsive Nav---------------------------------------------------*/
 .resposive_nav {
 	display:none;
@@ -102,57 +137,15 @@ header .white_line p a{color:#000;}
 .curve_con{display:none;}
 .res_like_con{display:none;}
 .res_header{display:none;}
-
 /*---------------------------------------------------Responsive Nav---------------------------------------------------*/
 
 
-/*---------------------------------------------------content_main_con---------------------------------------------------*/
-#content_main_con{width:100%; padding-bottom:100px;}
-#content_main_con .content_con{width:100%; border:3px solid #ff0000;}
-#content_main_con .content_con h5{margin:10px;}
-#content_main_con .content_con h1{font-size:60px; margin:10px;  font-weight:bold; color:#00481a}
-#content_main_con .content_con h4{font-size:16px; margin:10px; font-weight:bold; color:#00481a; padding:30px 0;}
-#content_main_con .content_con .social_media_con{width:100%; margin:10px;}
-#content_main_con .content_con .social_media_con img{margin-right:5px; }
-
-#content_main_con .content_con .upper_widget_con{width:100%; margin:50px 0; display:inline-block;}
-#content_main_con .content_con .upper_widget_con .widget_con{text-align:center; min-height:450px;}
-#content_main_con .content_con .upper_widget_con .widget_con h2{font-size:20px; padding-bottom:20px; color:#00481a; background-image:url(../images/widget_line.png); background-position:58px 30px; background-size:auto; margin:10px 0; background-repeat:no-repeat;}
-#content_main_con .content_con .upper_widget_con .widget_con p{font-size:16px color:#000;}
-
-#content_main_con .content_con .sports_con h2{font-size:16px; margin-bottom:40px; padding:0 20px}
-#content_main_con .content_con .sports_con h2 span{color:#4e944c}
-#content_main_con .content_con .sports_con h6{font-size:12px; line-height:24px; padding:0 20px}
-#content_main_con .content_con .sports_con h6 span{color:#5e9144}
-
-#content_main_con .like_container{width:100%; margin:50px 0; display:inline-block;}
-
-#content_main_con .like_container .img2{position:relative;}
-
-#content_main_con .like_container .img2 .text_con{ position:absolute; width:100%; margin:0 auto; top:0;}
-#content_main_con .like_container .img2 .text_con p{margin:30px 0; line-height:45px; color:#fff; font-size:20px; text-align:center}
-#content_main_con .like_container .img2 .text_con h5{margin:90px 0; line-height:45px; color:#fff; font-size:20px; text-align:center}
-#content_main_con .like_container .img2 .text_con h3{margin:40px 0; line-height:45px; color:#fff; font-size:20px; text-align:center}
-#content_main_con .like_container .img2 .text_con .brown_con{width:85%; margin:0 auto; color:#fff; background-color:#ae5e07; padding:15px 0;}
-#content_main_con .like_container .img2 .text_con .brown_con .watch_icon{padding:0 5px 0 20px; background-image:url(../images/watch_icon.png); background-repeat:no-repeat; margin-left:10px; background-position: 0px 1px;}
-#content_main_con .like_container .img2 .text_con .brown_con .minute_icon{padding:0 5px 0 20px; background-image:url(../images/minute_icon.png); background-repeat:no-repeat; margin-left:10px; background-position: -2px 1px;}
-#content_main_con .like_container h2{font-size:22px; color:#4e944c; padding:5px 20px}
-/*---------------------------------------------------content_main_con---------------------------------------------------*/
 footer{width:100%;}
 footer .footer_widget_con{ margin-bottom:30px;}
 footer .footer_widget_con h3{ font-size:20px; font-weight:bold; color:#4e944c; text-transform:uppercase}
 footer .footer_widget_con ul{ padding:0; margin:10px 0;}
 footer .footer_widget_con ul li{ list-style:none; margin:5px 0; }
 footer .footer_widget_con ul li a{font-size:18px; color:#000;}
-
-
-
-
-
-
-
-
-
 
 
 @media(max-width:1199px){
@@ -175,7 +168,7 @@ header .search_con .search_text{width:95%;}
 header .logo{ text-align:center;}
 #content_main_con .content_con .upper_widget_con .widget_con h2{background:none;}
 #content_main_con .content_con .upper_widget_con .widget_con{min-height:inherit; padding:15px;}
-<!--#content_main_con .like_container .img2{text-align:center; max-width:368px; float:none; margin:20px auto}-->
+#content_main_con .like_container .img2{text-align:center; max-width:368px; float:none; margin:20px auto}
 #content_main_con .like_container h2{text-align:center;}
 #content_main_con .like_container .img2 .text_con{width:92%;}
 
@@ -192,7 +185,7 @@ header .logo{ text-align:center;}
 .curve_con{width:100%; text-align:center; display:block;}
 .less_space{padding:0;}
 #content_main_con .content_con h1{font-size:35px;}
-
+#content_main_con .like_container{display:none;}
 
 .res_like_con{width:100%; display:inline-block; margin:20px 0;}
 .res_like_con h2{font-size: 22px;
@@ -204,18 +197,6 @@ header .logo{ text-align:center;}
 	footer{width:100%; display:none}
 	.green_color{ width:100%; height:525px; background-color:#007000}
 	#content_main_con{padding:0;}
-	.less_space {
-    padding: 0;
-}
-
-#content_main_con .like_container .img2 .text_con{position:inherit;}
-#content_main_con .like_container .img2 .text_con p{margin:0; font-size:13px; line-height:20px; color:#000;}
-#content_main_con .like_container .img2{background-color:#fff; padding-bottom:10px; min-height:285px;}
-#content_main_con .like_container .img2 .text_con h5{margin:0; font-size:13px; line-height:20px; color:#000;}
-#content_main_con .like_container .img2 .text_con h3{margin:0; font-size:13px; line-height:20px; color:#000;}
-header{display:none;}
-
-#content_main_con .like_container .img2 .text_con .brown_con{display:none;}
 }
 
 @media(max-width:480px){
